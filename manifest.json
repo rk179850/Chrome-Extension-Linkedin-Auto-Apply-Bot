@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "LINKEDIN CHROME EXTENSION",
+    "version": "1.0",
+    "description": "Automates job applications on LinkedIn",
+    "permissions": ["storage", "scripting", "activeTab"],
+    "host_permissions": ["https://www.linkedin.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

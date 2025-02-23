@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LinkedIn Auto Apply</title>
+    <style>
+        body { width: 250px; padding: 10px; font-family: Arial, sans-serif; }
+        input, select, button { width: 100%; padding: 8px; margin: 5px 0; }
+        button { background: #0073b1; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h3>LinkedIn Auto Apply</h3>
+    <label for="keywords">Job Search:</label>
+    <input type="text" id="keywords" placeholder="Enter keywords">
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" placeholder="Enter location">
+
+    <label for="experience">Experience Level:</label>
+    <select id="experience">
+        <option value="any">Any</option>
+        <option value="entry">Fresher</option>
+        <option value="mid">Mid Level</option>
+        <option value="senior">Senior Level</option>
+    </select>
+
+    <button id="startApply">Start Applying</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
